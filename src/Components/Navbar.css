@@ -1,0 +1,46 @@
+
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    place-items: center;
+
+}
+
+div{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    
+    background: lightblue;
+    max-width: 100vw;
+    height: 10vh;
+
+}
+
+ul{
+    margin-right: 5rem;
+    float: right;
+    display: inline-flex;
+    gap: 2rem;
+    list-style-type: none;
+    /* border: 1px solid; */
+    
+}
+
+ul li a{
+    height: 100vh;
+    padding: 10px;
+    font-size: 500;
+    color: #fff;
+}
+
+ul li a:hover{
+    background: #333;
+    color: #fff;
+    border-radius:10px;
+    transition: .5s linear;
+    font-size: 15px; 
+}
